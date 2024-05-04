@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #141414;
+}
+
+header {
+    text-align: center;
+}
+header img {
+    align-items: center;
+    width: 100px;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+
+header h2 {
+    color: #C4F730;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+section {
+    background: #202020;
+    border-radius: 10px;
+    padding: auto;
+    width: 300px;
+    height: 550px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#323232;
+    padding: 10px;
+    color: white;
+    margin: 20px 10px 15px 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#linkedin {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#323232;
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 15px 20px;
+    cursor: pointer;
+}
+
+#twitter {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#323232;
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 15px 20px;
+    cursor: pointer;
+}
+
+#instagram {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#323232;
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 5px 20px;
+    cursor: pointer;
+}
+
+#portfolio:hover, #linkedin:hover, #twitter:hover, #instagram:hover {
+    background-color: #C4F730; 
+}
+
