@@ -32,9 +32,10 @@ header h2 {
 
 header h3 {
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 section {
     background: #202020;
@@ -46,7 +47,7 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
 }
 
-#portfolio {
+/*#portfolio {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
@@ -57,6 +58,7 @@ section {
     margin: 20px 10px 15px 20px;
     transition: background-color 0.3s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #linkedin {
@@ -69,6 +71,7 @@ section {
     color: white;
     margin: 10px 10px 15px 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #twitter {
@@ -81,6 +84,7 @@ section {
     color: white;
     margin: 10px 10px 15px 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #instagram {
@@ -93,7 +97,32 @@ section {
     color: white;
     margin: 10px 10px 5px 20px;
     cursor: pointer;
+    text-decoration: none;
+}*/
+
+#portfolio, #github,  #linkedin, #twitter, #instagram {
+    margin: 10px 10px 15px 20px;
 }
+
+.social-link {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #323232;
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 15px 20px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none; 
+}
+
+.social-link:hover {
+    background-color: #C4F730;
+}
+
+
 
 #portfolio:hover, #linkedin:hover, #twitter:hover, #instagram:hover {
     background-color: #C4F730; 
